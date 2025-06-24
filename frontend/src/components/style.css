@@ -1,0 +1,310 @@
+/* // src/components/styles.css */
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.light-mode-container {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e648c9;
+}
+
+.dark-mode-container {
+  background-color: #1e1e1e;
+  color: #a75151;
+}
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-warning.text-white:hover {
+  background-color: #e0a800;
+}
+
+
+/* gmailimage */
+.gmaillogo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+  background-image: url("./images/mainpage.jpg"); /* Add correct file extension */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-size: cover; /* Optional: makes image cover the div */
+  background-position: center; /* Optional: centers the image */ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+/* home page */
+/* .dashbdLinks {
+  color: rgb(57, 46, 206);
+} */
+
+.headinghomepage {
+
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  background-color: #4a90e2;
+  padding: 20px;
+  /* border: 4px solid #2c3e50;   */
+  border-radius: 10px;
+  text-shadow: 3px 3px 5px rgba(213, 44, 44, 0.5);  /* Shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+  /* border: 6px solid black; */
+  background-image: url("./images/homepageheading1.jpg"); /* Add correct file extension */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-size: cover; /* Optional: makes image cover the div */
+  background-position: center; /* Optional: centers the image */ 
+}
+
+
+.completehomepage{
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #98c0e9;
+  padding: 20px;
+  box-sizing: content-box;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 6px,solid,rgb(165, 160, 160); */
+  background-image: url("./images/details.jpg"); /* Add correct file extension */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-size: cover; /* Optional: makes image cover the div */
+  background-position: center; /* Optional: centers the image */ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.middle{
+  text-align: right;
+  padding-right: 750px;
+}
+
+.rightsidehomepage{
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #98c0e9;
+  padding: 20px;
+  box-sizing: content-box;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* Manger Page */
+.completeManagerpage{
+  display: inline-flexbox;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #8fa4ef;
+  padding: 200px;
+  box-sizing: content-box;
+  text-align: center;
+  font-family: '#98c0e9';
+}
+
+/* manageradddetails */
+.manageradddetails{
+  padding-top: 50px;
+}
+
+/* Trainer page */
+
+.headingDashboard{
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+  background-color: rgb(232, 80, 96);
+  padding-bottom: 15px;
+  color: rgb(67, 34, 166);
+  font-style: oblique;
+  border: 6px,solid,black;
+}
+
+.trainerlinks{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #8fa4ef;
+  padding: 20px;
+  box-sizing: initial;
+  text-align: center;
+  font-family: '#98c0e9';  
+  border: 6px,solid,black;
+}
+
+.trainerlogin{
+  background-color: #8fa4ef;
+  font-size: xx-large;
+}
+/* Student Login */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffffcc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-link {
+  font-size: 18px;
+  color: #2980b9;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.login-link:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboard-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.dashboard-table a {
+  text-decoration: none;
+  color: #98c0e9;
+  font-weight: bold;
+} */
+
+/* -------------------------------------------------------------------------------------- */
+
+/* style.css */
+.dark-mode-container {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.light-mode-container {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary, .btn-success, .btn-warning {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
